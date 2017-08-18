@@ -220,9 +220,11 @@ div {
     line-height: 1.77;
     color: #444;
     padding-top: 15px;
-    text-align: justify;
+    /*text-align: justify;*/
+    text-align: left;
     text-justify: distribute;
-    word-break: break-all; }
+    /*word-break: break-all;*/
+    word-break: keep-all; }
     .post .post-content h2 {
       margin: 1.4em 0 1.1em;
       border-bottom: 1px solid #eee;
